@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone', // Enable standalone output for server deployment
+  // Removed standalone output for Vercel deployment
+  // Vercel handles static files automatically from public directory
   images: {
     // Images are now served locally from public/images/
   },
